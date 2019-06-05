@@ -1,22 +1,22 @@
-### CodeBook
+# CodeBook
 
 These are the 561 attribute names:
-featureNames <- features.txt 
+* featureNames <- features.txt 
 
 These are the 6 activity names with their respective number:
-activityLabels <- activity_labels.txt
+* activityLabels <- activity_labels.txt
 
 The ID of the subject who performed the activity. IDs range from 1 to 30:
-subjectTrain <- subject_train
-subjectTest <- subject_test
+* subjectTrain <- subject_train
+* subjectTest <- subject_test
 
 The activity that the subject performed:
-activityTrain <- y_train
-activityTest <- y_test
+* activityTrain <- y_train
+* activityTest <- y_test
 
 The values of the 561 attributes per subject:
-featuresTrain <- X_train
-featuresTest <- X_test
+* featuresTrain <- X_train
+* featuresTest <- X_test
 
 combinedData <- merging all the training and testing data together
 
